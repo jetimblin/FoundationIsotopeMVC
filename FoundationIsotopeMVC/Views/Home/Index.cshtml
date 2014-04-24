@@ -1,20 +1,46 @@
 ﻿@using Prototyping.Ipsum;
 <div class="ribbon-wrapper">
-    <div class="ribbon"><a href="https://github.com/EdCharbeneau">GitHub</a></div>
+    <div class="ribbon"><a href="https://github.com/jetimblin">GitHub</a></div>
 </div>
 
 <div class="row">
     <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-        <h2 class="subheader">rocking Isotope.js</h2>
+        <h1>ASP.NET MVC 5 example with Responsive Design</h1>
+        <h2 class="subheader">Uses Foundation and Isotope.js</h2>
     </div>
 </div>
 
 <div class="row">
-
     <div class="large-12 columns tiles">
+        <div class="panel">
+            <article>
+                <header><a href="http://www.dnnsoftware.com/">DNN: DotNetNuke</a></header>
+                <div class="description">
+                    <p>
+                        DNN - Open Source Web CMS built on the .NET platform.
+                    </p>
+
+                </div>
+            </article>
+        </div>
+        <div class="panel example">
+            <article>
+                <header><a href="https://github.com/EdCharbeneau/RapidPrototypingMVC4Examples">Rapid Prototyping Examples</a></header>
+                <div class="description">
+                    <p>
+                        This GitHub repo shows how to use the Prototyping for MVC HTML Helper. Multiple example layouts and UI patterns are demonstrated.
+                    </p>
+
+                </div>
+            </article>
+        </div>
+
+
+
         @for (int i = 0; i < 20; i++)
         {
+
+
             <div class="panel">
                 <article>
                     <header><a href="#">@Html.Ipsum().Words(2)</a></header>
